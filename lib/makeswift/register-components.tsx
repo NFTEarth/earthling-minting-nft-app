@@ -20,11 +20,11 @@ ReactRuntime.registerComponent(NFTDropCard, {
       options: Object.entries(ChainId)
         .filter(([key]) => Number.isInteger(parseInt(key, 10)))
         .map(([value, label]) => ({ label: label as string, value })),
-      defaultValue: String(ChainId.Mumbai),
+      defaultValue: String(ChainId.arbitrum),
     }),
     contractAddress: TextInput({
       label: 'Contract Address',
-      defaultValue: '0x322067594DBCE69A9a9711BC393440aA5e3Aaca1',
+      defaultValue: '0x8778B7FD7e2480C6F9Ad1075Bd848B7Ce1b9d90C',
     }),
     showMedia: Checkbox({
       label: 'Show media',
