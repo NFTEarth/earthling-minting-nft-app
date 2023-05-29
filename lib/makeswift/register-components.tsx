@@ -20,7 +20,7 @@ ReactRuntime.registerComponent(NFTDropCard, {
       options: Object.entries(ChainId)
         .filter(([key]) => Number.isInteger(parseInt(key, 10)))
         .map(([value, label]) => ({ label: label as string, value })),
-      defaultValue: String(ChainId.arbitrum),
+      defaultValue: String(ChainId.Arbitrum),
     }),
     contractAddress: TextInput({
       label: 'Contract Address',
