@@ -1,4 +1,7 @@
 ## Demo
+Updates
+
+## Earthlings 
 
 [https://makeswift-examples-thirdweb.vercel.app/](https://makeswift-examples-thirdweb.vercel.app/)
 
